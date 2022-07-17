@@ -1,12 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Learn react js</title>
+	<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
 	<div id="root"></div>
 	<!-- <h1>Add react to website</h1> -->
 <!-- 
 unpkg (cdn ) unpkg.com/:package@:version/:file 
 unpkg.com/react@17.0.2/index.js
 https://unpkg.com/react@17.0.2/cjs/react.development.js
-	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 -->
-<script>
+<script type="text/babel">
 	// const h1DOM = document.createElement('h1');
 	// h1DOM.title = 'Hello';
 	// h1DOM.className = 'heading';
@@ -40,3 +50,6 @@ https://unpkg.com/react@17.0.2/cjs/react.development.js
 	const domContainer = document.getElementById('root');
 	const root = ReactDOM.createRoot(domContainer);
 	root.render(ulReact);
+</script>
+</body>
+</html>
